@@ -31,7 +31,7 @@ namespace TirageAuSort
                 Dictionary<string, string> tirage = rng.TirageAuSort();
 
                 
-                fileManager.WriteData("./Resultats/TirageAuSort_" + dateTimeNow + ".txt", tirage);
+                fileManager.WriteData("./Resultats/TirageAuSort_" + dateTimeNow + ".json", tirage);
             }
             else
             {
